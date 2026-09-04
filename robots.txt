@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://exifmate.com/sitemap.xml
