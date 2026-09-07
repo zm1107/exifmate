@@ -93,6 +93,132 @@ p.lead { color: var(--sub); max-width: 720px; margin-bottom: 28px; }
 .feat h3 { font-size: 16px; margin-bottom: 6px; }
 .feat p { font-size: 14px; color: var(--sub); }
 
+/* ---------- 四大核心卖点 ---------- */
+.pillar {
+  display: grid; grid-template-columns: 1.05fr .95fr; gap: 36px; align-items: center;
+  background: var(--card); border: 1px solid var(--line); border-radius: 16px;
+  padding: 34px 36px; margin-top: 22px; box-shadow: 0 1px 3px rgba(28,22,86,.06);
+}
+.pillar.dark {
+  background: linear-gradient(135deg, var(--hero1) 0%, #3a2a86 55%, var(--hero2) 100%);
+  color: #fff; border: none; box-shadow: 0 10px 30px rgba(29,22,86,.25);
+}
+.pillar.flip { grid-template-columns: .95fr 1.05fr; }
+.pillar.flip .pillar-text { order: 2; }
+.pillar.flip .pillar-visual { order: 1; }
+.pillar-num { font-size: 13px; font-weight: 800; letter-spacing: .14em; color: var(--orange); margin-bottom: 6px; }
+.pillar h3 { font-size: 22px; margin-bottom: 10px; }
+.pillar p { font-size: 14.5px; color: var(--sub); }
+.pillar.dark p { color: rgba(255,255,255,.86); }
+.pillar-quote {
+  font-size: 17px !important; font-weight: 700; color: var(--ink) !important;
+  border-left: 3px solid var(--orange); padding-left: 12px; margin: 12px 0;
+}
+.pillar.dark .pillar-quote { color: #fff !important; }
+.zero-badges { display: flex; gap: 8px; flex-wrap: wrap; margin: 14px 0 4px; }
+.zero-badges span {
+  font-size: 13px; font-weight: 600; padding: 4px 13px; border-radius: 15px;
+  background: #efeafc; color: var(--accent);
+}
+.pillar.dark .zero-badges span {
+  background: rgba(255,255,255,.14); color: #fff; border: 1px solid rgba(255,255,255,.38);
+}
+
+/* 01 全离线：本地硬盘示意 */
+.disk-panel {
+  background: #120e2e; border: 1px solid rgba(255,255,255,.2); border-radius: 14px;
+  padding: 16px 18px 14px; color: #e9e7ff;
+}
+.disk-head {
+  display: flex; align-items: center; gap: 8px; font-weight: 700; font-size: 14px;
+  padding-bottom: 10px; margin-bottom: 4px; border-bottom: 1px dashed rgba(255,255,255,.22);
+}
+.disk-head .shield {
+  margin-left: auto; display: inline-flex; align-items: center; gap: 6px;
+  font-size: 12px; font-weight: 600; padding: 3px 11px; border-radius: 12px;
+  background: rgba(47,125,66,.4); color: #a8ecbd;
+}
+.disk-row {
+  display: flex; align-items: center; gap: 11px; margin-top: 9px; padding: 8px 10px;
+  border-radius: 10px; background: rgba(255,255,255,.07); font-size: 13.5px;
+  font-family: Consolas, "Courier New", monospace;
+}
+.disk-row .fico {
+  width: 34px; height: 34px; border-radius: 8px; flex: none;
+  display: flex; align-items: center; justify-content: center;
+}
+.fico.photo { background: #43328f; color: #c3b2ff; }
+.fico.video { background: #8a3d10; color: #ffc09a; }
+.fico.raw   { background: #14556e; color: #9adcf2; }
+.disk-row small { margin-left: auto; font-family: "Microsoft YaHei UI", "Segoe UI", sans-serif; font-size: 12px; color: rgba(255,255,255,.55); }
+.cloud-off {
+  display: inline-flex; align-items: center; gap: 9px; margin-top: 14px;
+  padding: 8px 16px; border: 1px dashed rgba(255,255,255,.45); border-radius: 12px;
+  color: rgba(255,255,255,.88); font-size: 13px;
+}
+
+/* 02 全格式：格式徽章 */
+.fmt-groups { display: flex; flex-direction: column; gap: 16px; }
+.fmt-label {
+  display: flex; align-items: center; gap: 7px;
+  font-size: 13px; font-weight: 700; color: var(--sub); margin-bottom: 8px;
+}
+.fmt-label svg { color: var(--accent); }
+.fmt-group.hot .fmt-label svg { color: var(--orange); }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chips span {
+  font-size: 13px; font-weight: 600; padding: 4px 12px; border-radius: 8px;
+  background: #f0eef8; border: 1px solid var(--line); color: var(--ink);
+  font-family: Consolas, "Courier New", monospace;
+}
+.fmt-group.hot .chips span { background: var(--orange); border-color: var(--orange-d); color: #fff; }
+
+/* 03 无忧撤销：操作历史示意 */
+.undo-card {
+  background: #fff; border: 1px solid var(--line); border-radius: 14px;
+  padding: 16px 18px 14px; color: var(--ink);
+  box-shadow: 0 10px 26px rgba(0,0,0,.28);
+}
+.undo-title {
+  display: flex; align-items: center; gap: 8px; font-weight: 700; font-size: 14px;
+  padding-bottom: 10px; margin-bottom: 4px; border-bottom: 1px dashed var(--line); color: var(--accent);
+}
+.undo-title .demo-tag {
+  margin-left: auto; font-size: 11px; font-weight: 600; color: #8a8a99;
+  background: #f2f1f7; border-radius: 10px; padding: 2px 9px;
+}
+.undo-row {
+  display: flex; align-items: center; gap: 10px; margin-top: 9px; padding: 9px 11px;
+  border-radius: 10px; background: #faf9fd; border: 1px solid var(--line); font-size: 13px;
+}
+.undo-row b { font-weight: 700; }
+.undo-row small { color: var(--sub); font-size: 12px; }
+.undo-row .restore {
+  margin-left: auto; flex: none; display: inline-flex; align-items: center; gap: 5px;
+  font-size: 12px; font-weight: 700; color: var(--orange-d);
+  background: #fdeee3; border: 1px solid #f5c9a8; border-radius: 13px; padding: 3px 11px;
+}
+.undo-note {
+  margin-top: 11px; font-size: 12.5px; color: var(--ok); display: flex; align-items: center; gap: 6px;
+}
+
+/* 04 全智能：流转示意 */
+.flows { display: flex; flex-direction: column; gap: 12px; }
+.flow { display: grid; grid-template-columns: 1fr auto 1fr; gap: 9px; align-items: stretch; }
+.flow-chip {
+  display: flex; align-items: center; gap: 8px; padding: 8px 11px;
+  background: #faf9fd; border: 1px solid var(--line); border-radius: 10px; font-size: 12.5px;
+}
+.flow-chip .fico { width: 28px; height: 28px; border-radius: 7px; }
+.flow-chip b { display: block; font-size: 12.5px; line-height: 1.4; }
+.flow-chip small { display: block; color: var(--sub); font-size: 11.5px; line-height: 1.4;
+  font-family: Consolas, "Courier New", monospace; }
+.flow-arrow {
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px;
+  font-size: 11.5px; font-weight: 700; color: var(--orange); white-space: nowrap;
+}
+.flow-arrow svg { color: var(--orange); }
+
 /* 截图占位 */
 .shot {
   border-radius: 12px; border: 1px dashed #c3bfd6; background:
@@ -178,4 +304,9 @@ footer .legal { margin-top: 24px; color: #8a8a99; }
   .hero h1 { font-size: 30px; }
   .nav-links a.hide-sm { display: none; }
   .sponsor .btns { margin-left: 0; }
+  .pillar, .pillar.flip { grid-template-columns: 1fr; gap: 22px; padding: 26px 22px; }
+  .pillar.flip .pillar-text { order: 1; }
+  .pillar.flip .pillar-visual { order: 2; }
+  .flow { grid-template-columns: 1fr; gap: 4px; }
+  .flow-arrow { flex-direction: row; padding: 2px 0 2px 14px; }
 }
