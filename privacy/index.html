@@ -52,7 +52,7 @@
 <header>
   <p style="margin:0 0 10px;font-size:14px"><a href="/">&larr; 返回 ExifMate 首页</a> &nbsp;·&nbsp; <a href="/en/" lang="en">Home</a></p>
   <h1>ExifMate 隐私政策</h1>
-  <div class="date">最近更新日期：2026 年 9 月 4 日 &nbsp;·&nbsp; Last updated: September 4, 2026</div>
+  <div class="date">最近更新日期：2026 年 9 月 8 日 &nbsp;·&nbsp; Last updated: September 8, 2026</div>
 </header>
 
 <nav class="langs">
@@ -135,10 +135,10 @@
 <section>
 <h2>6. 信息存储地点和期限</h2>
 <ul>
-  <li><strong>存储地点：</strong>所有数据仅存储在你的设备本地。唯一的本地数据文件是操作记录数据库，（可通过 <strong>设置 → 打开数据目录</strong> 直接访问其所在文件夹；微软商店版由系统随应用管理，卸载时一并清除），其中记录：被处理文件的路径与文件名、操作前后的元数据快照、文件哈希、操作时间——<strong>用途仅为支持"操作记录与一键恢复"功能，不用于其他任何目的</strong>。</li>
+  <li><strong>存储地点：</strong>所有数据仅存储在你的设备本地。唯一的本地数据文件是操作记录数据库 <code>exif.db</code>，位于本机用户数据目录 <code>%APPDATA%\ExifMate\</code>（即 <code>C:\Users\&lt;用户名&gt;\AppData\Roaming\ExifMate</code>，为常规用户目录、不在系统应用容器（Packages）目录内；可通过 <strong>设置 → 打开数据目录</strong> 直接访问其所在文件夹），其中记录：被处理文件的路径与文件名、操作前后的元数据快照、文件哈希、操作时间——<strong>用途仅为支持"操作记录与一键恢复"功能，不用于其他任何目的</strong>。</li>
   <li><strong>查看与删除：</strong>你可随时通过上述入口查看该数据库文件；直接删除该文件不影响应用运行，但你将失去历史操作的恢复能力。</li>
-  <li><strong>卸载：</strong>通过 Microsoft Store 卸载本应用时，上述本地数据将随应用数据一并移除；卸载前如需保留操作记录，请自行备份。你通过本应用编辑、保存的媒体文件不受卸载影响。</li>
-  <li><strong>存储期限：</strong>媒体文件由你全权管理；操作记录数据库保留至你删除或卸载为止。</li>
+  <li><strong>卸载：</strong>卸载本应用（包括通过 Microsoft Store 卸载）<strong>不会自动删除</strong>上述 <code>%APPDATA%\ExifMate\</code> 文件夹；如需彻底清除操作记录，请在卸载后手动删除该文件夹。你通过本应用编辑、保存的媒体文件不受卸载影响。</li>
+  <li><strong>存储期限：</strong>媒体文件由你全权管理；操作记录数据库保留至你手动删除为止（卸载不会自动删除）。</li>
 </ul>
 </section>
 
@@ -153,7 +153,7 @@
   <li><strong>知情与选择</strong>：在了解本政策后自主决定是否使用本应用；</li>
   <li><strong>权限控制</strong>：随时通过系统设置授予或限制本应用的文件访问权限；</li>
   <li><strong>数据管理</strong>：随时查看、备份或删除本地操作记录数据库，以及通过系统文件管理器管理你的媒体文件；</li>
-  <li><strong>卸载自由</strong>：随时卸载本应用并一并清除其本地数据。</li>
+  <li><strong>卸载自由</strong>：随时卸载本应用；卸载后可手动删除 <code>%APPDATA%\ExifMate\</code> 文件夹以清除其本地数据。</li>
 </ul>
 </section>
 
@@ -262,10 +262,10 @@
 <section>
 <h2>6. Data Storage Location and Retention</h2>
 <ul>
-  <li><strong>Location:</strong> All data stays on your device. The only local data file is the operation-history database at <code>%APPDATA%\ExifMate\exif.db</code> (reachable via <strong>Settings → Open data folder</strong>). It records: paths and file names of processed files, before/after metadata snapshots, file hashes, and operation times — <strong>used solely for the operation-history &amp; restore feature, for no other purpose</strong>.</li>
+  <li><strong>Location:</strong> All data stays on your device. The only local data file is the operation-history database at <code>%APPDATA%\ExifMate\exif.db</code> — your real user AppData folder (<code>C:\Users\&lt;username&gt;\AppData\Roaming\ExifMate</code>), not the system package container (Packages) directory; reachable via <strong>Settings → Open data folder</strong>. It records: paths and file names of processed files, before/after metadata snapshots, file hashes, and operation times — <strong>used solely for the operation-history &amp; restore feature, for no other purpose</strong>.</li>
   <li><strong>View &amp; delete:</strong> You can inspect the file at any time; deleting it does not break the app, but you lose the ability to restore past operations.</li>
-  <li><strong>Uninstall:</strong> When you uninstall the app from Microsoft Store, this local data is removed along with the app's data. Back it up first if you want to keep it. Media files you edited or saved with the app are not affected by uninstalling.</li>
-  <li><strong>Retention:</strong> Media files remain entirely under your control; the history database is kept until you delete it or uninstall the app.</li>
+  <li><strong>Uninstall:</strong> Uninstalling the app (including via Microsoft Store) <strong>does not automatically delete</strong> the <code>%APPDATA%\ExifMate\</code> folder; to wipe the history records completely, delete that folder manually after uninstalling. Media files you edited or saved with the app are not affected by uninstalling.</li>
+  <li><strong>Retention:</strong> Media files remain entirely under your control; the history database is kept until you delete it manually (uninstalling does not remove it).</li>
 </ul>
 </section>
 
@@ -280,7 +280,7 @@
   <li><strong>Informed choice</strong>: decide whether to use the app after reading this policy;</li>
   <li><strong>Permission control</strong>: grant or restrict file access at any time in system settings;</li>
   <li><strong>Data management</strong>: view, back up, or delete the local history database at any time, and manage your media files through the file manager;</li>
-  <li><strong>Freedom to uninstall</strong>: remove the app and its local data at any time.</li>
+    <li><strong>Freedom to uninstall</strong>: remove the app at any time; afterwards you can delete the <code>%APPDATA%\ExifMate\</code> folder to clear its local data.</li>
 </ul>
 </section>
 
