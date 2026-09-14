@@ -12,11 +12,11 @@ A fully offline EXIF viewer / repair / batch editor for Windows.
 
 `Windows 10 / 11` · `Free + Full Edition`
 
-[Website exifmate.com](https://exifmate.com) · [Microsoft Store](https://apps.microsoft.com/search?query=ExifMate) · [Privacy Policy](https://exifmate.com/privacy/) · [Feedback](https://github.com/zm1107/exifmate/issues)
+[Website exifmate.com](https://exifmate.com) · [Microsoft Store](https://apps.microsoft.com/detail/9p58n2k8wqx3) · [Privacy Policy](https://exifmate.com/privacy/) · [Feedback](https://github.com/zm1107/exifmate/issues)
 
 ☕ [Buy me a coffee](#buy-me-a-coffee)
 
-<!-- TODO: replace with the official store listing URL once published; add a screenshot here -->
+<!-- TODO: add a screenshot here -->
 
 </div>
 
@@ -54,7 +54,7 @@ A fully offline EXIF viewer / repair / batch editor for Windows.
 | Priority support | — | ✓ |
 | Price | Free | One-time purchase |
 
-Purchased on the [Microsoft Store](https://apps.microsoft.com/search?query=ExifMate); free updates through 1.x.
+Purchased on the [Microsoft Store](https://apps.microsoft.com/detail/9p58n2k8wqx3); free updates through 1.x.
 
 ## Privacy
 
