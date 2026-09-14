@@ -12,11 +12,11 @@
 
 `Windows 10 / 11` · `免费版 + 完整版`
 
-[官网 exifmate.com](https://exifmate.com) · [从微软商店下载](https://apps.microsoft.com/search?query=ExifMate) · [隐私政策](https://exifmate.com/privacy/) · [问题反馈](https://github.com/zm1107/exifmate/issues)
+[官网 exifmate.com](https://exifmate.com) · [从微软商店下载](https://apps.microsoft.com/detail/9p58n2k8wqx3) · [隐私政策](https://exifmate.com/privacy/) · [问题反馈](https://github.com/zm1107/exifmate/issues)
 
 ☕ 觉得好用？[请作者喝杯咖啡](#请作者喝杯咖啡)
 
-<!-- TODO: 上架后替换为正式商店商品页链接，并在此处放一张主界面截图 -->
+<!-- TODO: 在此处放一张主界面截图 -->
 
 </div>
 
@@ -54,7 +54,7 @@
 | 优先技术支持 | — | ✓ |
 | 价格 | 免费 | 一次性买断 |
 
-完整版在微软商店内购买，价格以[商店页面](https://apps.microsoft.com/search?query=ExifMate)为准，1.x 版本免费更新。
+完整版在微软商店内购买，价格以[商店页面](https://apps.microsoft.com/detail/9p58n2k8wqx3)为准，1.x 版本免费更新。
 
 ## 隐私
 
