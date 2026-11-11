@@ -63,7 +63,7 @@ ExifMate runs **fully offline**: no networking code, no personal data collection
 ## Feedback
 
 - 🐛 [GitHub Issues](https://github.com/zm1107/exifmate/issues) (recommended, English & Chinese)
-- 📧 dev@exifmate.com
+- 📧 feedback@weibaba.fun
 
 ## About this repository
 

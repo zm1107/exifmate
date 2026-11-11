@@ -63,7 +63,7 @@ ExifMate **完全离线运行**：应用代码不含任何网络访问功能，�
 ## 反馈与支持
 
 - 🐛 Bug 与功能建议：[GitHub Issues](https://github.com/zm1107/exifmate/issues)（推荐，中英文均可）
-- 📧 邮件：dev@exifmate.com
+- 📧 邮件：feedback@weibaba.fun
 
 ## 关于本仓库
 
